@@ -1,0 +1,724 @@
+[INFO] 20:19:24:523 MEMORIA/(4836:4836): Cantidad de marcos: 8
+[INFO] 20:19:24:524 MEMORIA/(4836:4836): Memoria lista para recibir clientes
+[INFO] 20:19:24:524 MEMORIA/(4836:4837): Entro Atender CPU
+[INFO] 20:19:34:563 MEMORIA/(4836:4837): Se conecto CPU: 5
+[INFO] 20:19:34:563 MEMORIA/(4836:4837): CPU solicita acceso a info nro_filas_tabla_nivel1 y tamano_pagina
+[INFO] 20:19:34:563 MEMORIA/(4836:4878): Entro Atender KERNEL
+[INFO] 20:20:26:149 MEMORIA/(4836:4878): Kernel solicita INICIO PROCESO
+[INFO] 20:20:26:149 MEMORIA/(4836:4878): Se creo la tabla de primer nivel: 0
+[INFO] 20:20:26:150 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:20:26:150 MEMORIA/(4836:4837): entrada tabla: 0 ; numero tabla: 0
+[INFO] 20:20:26:150 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:20:26:150 MEMORIA/(4836:4837): No hizo falta reemplazar, se asignó el marco 0 a la página 0
+[INFO] 20:20:26:150 MEMORIA/(4836:4837): CPU solicita escritura a memoria de usuario
+[INFO] 20:20:26:150 MEMORIA/(4836:4837): Cpu solicita escribir el valor 1000 en el marco 0 con desplazamiento: 0
+[INFO] 20:20:26:150 MEMORIA/(4836:4837): Se escribio el contenido: 1000 en el marco: 0
+[INFO] 20:20:27:150 MEMORIA/(4836:4837): CPU solicita escritura a memoria de usuario
+[INFO] 20:20:27:150 MEMORIA/(4836:4837): Cpu solicita escribir el valor 1001 en el marco 0 con desplazamiento: 4
+[INFO] 20:20:27:150 MEMORIA/(4836:4837): Se escribio el contenido: 1001 en el marco: 0
+[INFO] 20:20:28:151 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:20:28:151 MEMORIA/(4836:4837): entrada tabla: 0 ; numero tabla: 0
+[INFO] 20:20:28:151 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:20:28:151 MEMORIA/(4836:4837): No hizo falta reemplazar, se asignó el marco 1 a la página 1
+[INFO] 20:20:28:151 MEMORIA/(4836:4837): CPU solicita escritura a memoria de usuario
+[INFO] 20:20:28:151 MEMORIA/(4836:4837): Cpu solicita escribir el valor 2000 en el marco 1 con desplazamiento: 4
+[INFO] 20:20:28:151 MEMORIA/(4836:4837): Se escribio el contenido: 2000 en el marco: 1
+[INFO] 20:20:29:152 MEMORIA/(4836:4837): CPU solicita lectura a memoria de usuario
+[INFO] 20:20:29:152 MEMORIA/(4836:4837): Se leyó el contenido: 2000 del marco: 1 con desplazamiento: 4
+[INFO] 20:20:30:153 MEMORIA/(4836:4837): CPU solicita escritura a memoria de usuario
+[INFO] 20:20:30:153 MEMORIA/(4836:4837): Cpu solicita escribir el valor 2000 en el marco 1 con desplazamiento: 0
+[INFO] 20:20:30:153 MEMORIA/(4836:4837): Se escribio el contenido: 2000 en el marco: 1
+[INFO] 20:20:31:154 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:20:31:154 MEMORIA/(4836:4837): entrada tabla: 2 ; numero tabla: 0
+[INFO] 20:20:31:154 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:20:31:154 MEMORIA/(4836:4837): No hizo falta reemplazar, se asignó el marco 2 a la página 8
+[INFO] 20:20:31:154 MEMORIA/(4836:4837): CPU solicita escritura a memoria de usuario
+[INFO] 20:20:31:154 MEMORIA/(4836:4837): Cpu solicita escribir el valor 4000 en el marco 2 con desplazamiento: 0
+[INFO] 20:20:31:154 MEMORIA/(4836:4837): Se escribio el contenido: 4000 en el marco: 2
+[INFO] 20:20:32:154 MEMORIA/(4836:4837): CPU solicita escritura a memoria de usuario
+[INFO] 20:20:32:155 MEMORIA/(4836:4837): Cpu solicita escribir el valor 4001 en el marco 2 con desplazamiento: 4
+[INFO] 20:20:32:155 MEMORIA/(4836:4837): Se escribio el contenido: 4001 en el marco: 2
+[INFO] 20:20:38:157 MEMORIA/(4836:4878): Kernel solicita la suspencion del proceso: 0
+[INFO] 20:20:38:157 MEMORIA/(4836:4878): Marco pagina modificada: 0
+[INFO] 20:20:39:159 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:20:39:159 MEMORIA/(4836:4837): entrada tabla: 0 ; numero tabla: 0
+[INFO] 20:20:39:159 MEMORIA/(4836:4837): El proceso esta ejecutando swap, se espera a que termine
+[INFO] 20:20:43:157 MEMORIA/(4836:4878): File descriptor a escribir/leer: 8
+[INFO] 20:20:43:158 MEMORIA/(4836:4878): Tabla segundo nivel: 0
+[INFO] 20:20:43:158 MEMORIA/(4836:4878): Numero de pagina: 0
+[INFO] 20:20:43:158 MEMORIA/(4836:4878): bytes escritos: 256
+[INFO] 20:20:43:158 MEMORIA/(4836:4878): Marco pagina modificada: 1
+[INFO] 20:20:48:158 MEMORIA/(4836:4878): File descriptor a escribir/leer: 8
+[INFO] 20:20:48:158 MEMORIA/(4836:4878): Tabla segundo nivel: 1
+[INFO] 20:20:48:158 MEMORIA/(4836:4878): Numero de pagina: 1
+[INFO] 20:20:48:158 MEMORIA/(4836:4878): bytes escritos: 256
+[INFO] 20:20:48:158 MEMORIA/(4836:4878): Marco pagina modificada: 2
+[INFO] 20:20:53:159 MEMORIA/(4836:4878): File descriptor a escribir/leer: 8
+[INFO] 20:20:53:159 MEMORIA/(4836:4878): Tabla segundo nivel: 0
+[INFO] 20:20:53:159 MEMORIA/(4836:4878): Numero de pagina: 8
+[INFO] 20:20:53:159 MEMORIA/(4836:4878): bytes escritos: 256
+[INFO] 20:20:53:159 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:20:53:159 MEMORIA/(4836:4837): No hizo falta reemplazar, se asignó el marco 0 a la página 0
+[INFO] 20:20:53:159 MEMORIA/(4836:4837): CPU solicita lectura a memoria de usuario
+[INFO] 20:20:53:159 MEMORIA/(4836:4837): Se leyó el contenido: 1000 del marco: 0 con desplazamiento: 0
+[INFO] 20:20:54:160 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:20:54:160 MEMORIA/(4836:4837): entrada tabla: 1 ; numero tabla: 0
+[INFO] 20:20:54:160 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:20:54:160 MEMORIA/(4836:4837): No hizo falta reemplazar, se asignó el marco 1 a la página 4
+[INFO] 20:20:54:160 MEMORIA/(4836:4837): CPU solicita escritura a memoria de usuario
+[INFO] 20:20:54:160 MEMORIA/(4836:4837): Cpu solicita escribir el valor 3000 en el marco 1 con desplazamiento: 0
+[INFO] 20:20:54:160 MEMORIA/(4836:4837): Se escribio el contenido: 3000 en el marco: 1
+[INFO] 20:20:55:161 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:20:55:161 MEMORIA/(4836:4837): entrada tabla: 0 ; numero tabla: 0
+[INFO] 20:20:55:161 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:20:55:162 MEMORIA/(4836:4837): No hizo falta reemplazar, se asignó el marco 2 a la página 1
+[INFO] 20:20:55:162 MEMORIA/(4836:4837): CPU solicita lectura a memoria de usuario
+[INFO] 20:20:55:162 MEMORIA/(4836:4837): Se leyó el contenido: 2000 del marco: 2 con desplazamiento: 0
+[INFO] 20:20:56:162 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:20:56:162 MEMORIA/(4836:4837): entrada tabla: 2 ; numero tabla: 0
+[INFO] 20:20:56:162 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 20:20:56:163 MEMORIA/(4836:4837): El proceso tiene actualmente 3 paginas en memoria
+[WARNING] 20:20:56:163 MEMORIA/(4836:4837): Ocurrio un reemplazo de página
+[WARNING] 20:20:56:163 MEMORIA/(4836:4837): Se gaurdo la página 0 en swap
+[WARNING] 20:20:56:163 MEMORIA/(4836:4837): Se cargó la página 8 en el marco 0
+[INFO] 20:20:56:163 MEMORIA/(4836:4837): CPU solicita lectura a memoria de usuario
+[INFO] 20:20:56:163 MEMORIA/(4836:4837): Se leyó el contenido: 4000 del marco: 0 con desplazamiento: 0
+[INFO] 20:20:57:164 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:20:57:164 MEMORIA/(4836:4837): entrada tabla: 3 ; numero tabla: 0
+[INFO] 20:20:57:164 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 20:20:57:164 MEMORIA/(4836:4837): El proceso tiene actualmente 3 paginas en memoria
+[WARNING] 20:20:57:164 MEMORIA/(4836:4837): Ocurrio un reemplazo de página
+[WARNING] 20:20:57:164 MEMORIA/(4836:4837): Se gaurdo la página 1 en swap
+[WARNING] 20:20:57:164 MEMORIA/(4836:4837): Se cargó la página 15 en el marco 2
+[INFO] 20:20:57:165 MEMORIA/(4836:4837): CPU solicita escritura a memoria de usuario
+[INFO] 20:20:57:165 MEMORIA/(4836:4837): Cpu solicita escribir el valor 9999 en el marco 2 con desplazamiento: 160
+[INFO] 20:20:57:165 MEMORIA/(4836:4837): Se escribio el contenido: 9999 en el marco: 2
+[INFO] 20:20:58:165 MEMORIA/(4836:4837): CPU solicita lectura a memoria de usuario
+[INFO] 20:20:58:165 MEMORIA/(4836:4837): Se leyó el contenido: 9999 del marco: 2 con desplazamiento: 160
+[INFO] 20:20:59:166 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:20:59:166 MEMORIA/(4836:4837): entrada tabla: 1 ; numero tabla: 0
+[INFO] 20:20:59:166 MEMORIA/(4836:4837): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 20:20:59:166 MEMORIA/(4836:4837): CPU solicita lectura a memoria de usuario
+[INFO] 20:20:59:166 MEMORIA/(4836:4837): Se leyó el contenido: 3000 del marco: 1 con desplazamiento: 0
+[INFO] 20:21:00:167 MEMORIA/(4836:4878): Kernel solicita FINALIZACION PROCESO
+[INFO] 20:21:00:167 MEMORIA/(4836:4878): Id a finalizar: 0
+[ERROR] 20:25:36:302 MEMORIA/(4836:4878): Se desconecto el kernel
+[INFO] 20:25:43:135 MEMORIA/(6293:6293): ALGORITMO REEMPLAZO: CLOCK-M
+[INFO] 20:25:43:135 MEMORIA/(6293:6293): Cantidad de marcos: 8
+[INFO] 20:25:43:135 MEMORIA/(6293:6293): Memoria lista para recibir clientes
+[INFO] 20:25:43:136 MEMORIA/(6293:6294): Entro Atender CPU
+[INFO] 20:25:44:191 MEMORIA/(6293:6294): Se conecto CPU: 5
+[INFO] 20:25:44:191 MEMORIA/(6293:6294): CPU solicita acceso a info nro_filas_tabla_nivel1 y tamano_pagina
+[INFO] 20:25:44:192 MEMORIA/(6293:6296): Entro Atender KERNEL
+[INFO] 20:25:46:968 MEMORIA/(6293:6296): Kernel solicita INICIO PROCESO
+[INFO] 20:25:46:968 MEMORIA/(6293:6296): Se creo la tabla de primer nivel: 0
+[INFO] 20:25:46:969 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:25:46:969 MEMORIA/(6293:6294): entrada tabla: 0 ; numero tabla: 0
+[INFO] 20:25:46:969 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:25:46:969 MEMORIA/(6293:6294): No hizo falta reemplazar, se asignó el marco 0 a la página 0
+[INFO] 20:25:46:969 MEMORIA/(6293:6294): CPU solicita escritura a memoria de usuario
+[INFO] 20:25:46:969 MEMORIA/(6293:6294): Cpu solicita escribir el valor 1000 en el marco 0 con desplazamiento: 0
+[INFO] 20:25:46:969 MEMORIA/(6293:6294): Se escribio el contenido: 1000 en el marco: 0
+[INFO] 20:25:47:970 MEMORIA/(6293:6294): CPU solicita escritura a memoria de usuario
+[INFO] 20:25:47:970 MEMORIA/(6293:6294): Cpu solicita escribir el valor 1001 en el marco 0 con desplazamiento: 4
+[INFO] 20:25:47:970 MEMORIA/(6293:6294): Se escribio el contenido: 1001 en el marco: 0
+[INFO] 20:25:48:970 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:25:48:970 MEMORIA/(6293:6294): entrada tabla: 0 ; numero tabla: 0
+[INFO] 20:25:48:970 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:25:48:970 MEMORIA/(6293:6294): No hizo falta reemplazar, se asignó el marco 1 a la página 1
+[INFO] 20:25:48:970 MEMORIA/(6293:6294): CPU solicita escritura a memoria de usuario
+[INFO] 20:25:48:970 MEMORIA/(6293:6294): Cpu solicita escribir el valor 2000 en el marco 1 con desplazamiento: 4
+[INFO] 20:25:48:970 MEMORIA/(6293:6294): Se escribio el contenido: 2000 en el marco: 1
+[INFO] 20:25:49:970 MEMORIA/(6293:6294): CPU solicita lectura a memoria de usuario
+[INFO] 20:25:49:970 MEMORIA/(6293:6294): Se leyó el contenido: 2000 del marco: 1 con desplazamiento: 4
+[INFO] 20:25:50:971 MEMORIA/(6293:6294): CPU solicita escritura a memoria de usuario
+[INFO] 20:25:50:971 MEMORIA/(6293:6294): Cpu solicita escribir el valor 2000 en el marco 1 con desplazamiento: 0
+[INFO] 20:25:50:971 MEMORIA/(6293:6294): Se escribio el contenido: 2000 en el marco: 1
+[INFO] 20:25:51:972 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:25:51:972 MEMORIA/(6293:6294): entrada tabla: 2 ; numero tabla: 0
+[INFO] 20:25:51:972 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:25:51:972 MEMORIA/(6293:6294): No hizo falta reemplazar, se asignó el marco 2 a la página 8
+[INFO] 20:25:51:972 MEMORIA/(6293:6294): CPU solicita escritura a memoria de usuario
+[INFO] 20:25:51:972 MEMORIA/(6293:6294): Cpu solicita escribir el valor 4000 en el marco 2 con desplazamiento: 0
+[INFO] 20:25:51:972 MEMORIA/(6293:6294): Se escribio el contenido: 4000 en el marco: 2
+[INFO] 20:25:52:972 MEMORIA/(6293:6294): CPU solicita escritura a memoria de usuario
+[INFO] 20:25:52:972 MEMORIA/(6293:6294): Cpu solicita escribir el valor 4001 en el marco 2 con desplazamiento: 4
+[INFO] 20:25:52:972 MEMORIA/(6293:6294): Se escribio el contenido: 4001 en el marco: 2
+[INFO] 20:25:58:973 MEMORIA/(6293:6296): Kernel solicita la suspencion del proceso: 0
+[INFO] 20:25:58:973 MEMORIA/(6293:6296): Marco pagina modificada: 0
+[INFO] 20:25:59:974 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:25:59:974 MEMORIA/(6293:6294): entrada tabla: 0 ; numero tabla: 0
+[INFO] 20:25:59:974 MEMORIA/(6293:6294): El proceso esta ejecutando swap, se espera a que termine
+[INFO] 20:26:03:974 MEMORIA/(6293:6296): File descriptor a escribir/leer: 8
+[INFO] 20:26:03:974 MEMORIA/(6293:6296): Tabla segundo nivel: 0
+[INFO] 20:26:03:974 MEMORIA/(6293:6296): Numero de pagina: 0
+[INFO] 20:26:03:974 MEMORIA/(6293:6296): bytes escritos: 256
+[INFO] 20:26:03:974 MEMORIA/(6293:6296): Marco pagina modificada: 1
+[INFO] 20:26:08:974 MEMORIA/(6293:6296): File descriptor a escribir/leer: 8
+[INFO] 20:26:08:974 MEMORIA/(6293:6296): Tabla segundo nivel: 1
+[INFO] 20:26:08:974 MEMORIA/(6293:6296): Numero de pagina: 1
+[INFO] 20:26:08:974 MEMORIA/(6293:6296): bytes escritos: 256
+[INFO] 20:26:08:974 MEMORIA/(6293:6296): Marco pagina modificada: 2
+[INFO] 20:26:13:975 MEMORIA/(6293:6296): File descriptor a escribir/leer: 8
+[INFO] 20:26:13:975 MEMORIA/(6293:6296): Tabla segundo nivel: 0
+[INFO] 20:26:13:975 MEMORIA/(6293:6296): Numero de pagina: 8
+[INFO] 20:26:13:975 MEMORIA/(6293:6296): bytes escritos: 256
+[INFO] 20:26:13:975 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:26:13:975 MEMORIA/(6293:6294): No hizo falta reemplazar, se asignó el marco 0 a la página 0
+[INFO] 20:26:13:975 MEMORIA/(6293:6294): CPU solicita lectura a memoria de usuario
+[INFO] 20:26:13:975 MEMORIA/(6293:6294): Se leyó el contenido: 1000 del marco: 0 con desplazamiento: 0
+[INFO] 20:26:14:978 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:26:14:978 MEMORIA/(6293:6294): entrada tabla: 1 ; numero tabla: 0
+[INFO] 20:26:14:978 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:26:14:978 MEMORIA/(6293:6294): No hizo falta reemplazar, se asignó el marco 1 a la página 4
+[INFO] 20:26:14:978 MEMORIA/(6293:6294): CPU solicita escritura a memoria de usuario
+[INFO] 20:26:14:978 MEMORIA/(6293:6294): Cpu solicita escribir el valor 3000 en el marco 1 con desplazamiento: 0
+[INFO] 20:26:14:978 MEMORIA/(6293:6294): Se escribio el contenido: 3000 en el marco: 1
+[INFO] 20:26:15:979 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:26:15:979 MEMORIA/(6293:6294): entrada tabla: 0 ; numero tabla: 0
+[INFO] 20:26:15:979 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 20:26:15:980 MEMORIA/(6293:6294): No hizo falta reemplazar, se asignó el marco 2 a la página 1
+[INFO] 20:26:15:980 MEMORIA/(6293:6294): CPU solicita lectura a memoria de usuario
+[INFO] 20:26:15:980 MEMORIA/(6293:6294): Se leyó el contenido: 2000 del marco: 2 con desplazamiento: 0
+[INFO] 20:26:16:980 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:26:16:980 MEMORIA/(6293:6294): entrada tabla: 2 ; numero tabla: 0
+[INFO] 20:26:16:980 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 20:26:16:981 MEMORIA/(6293:6294): El proceso tiene actualmente 3 paginas en memoria
+[WARNING] 20:26:16:981 MEMORIA/(6293:6294): Ocurrio un reemplazo de página
+[WARNING] 20:26:16:981 MEMORIA/(6293:6294): Se gaurdo la página 0 en swap
+[WARNING] 20:26:16:981 MEMORIA/(6293:6294): Se cargó la página 8 en el marco 0
+[INFO] 20:26:16:981 MEMORIA/(6293:6294): CPU solicita lectura a memoria de usuario
+[INFO] 20:26:16:981 MEMORIA/(6293:6294): Se leyó el contenido: 4000 del marco: 0 con desplazamiento: 0
+[INFO] 20:26:17:981 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:26:17:981 MEMORIA/(6293:6294): entrada tabla: 3 ; numero tabla: 0
+[INFO] 20:26:17:981 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 20:26:17:981 MEMORIA/(6293:6294): El proceso tiene actualmente 3 paginas en memoria
+[WARNING] 20:26:17:981 MEMORIA/(6293:6294): Ocurrio un reemplazo de página
+[WARNING] 20:26:17:981 MEMORIA/(6293:6294): Se gaurdo la página 1 en swap
+[WARNING] 20:26:17:981 MEMORIA/(6293:6294): Se cargó la página 15 en el marco 2
+[INFO] 20:26:17:981 MEMORIA/(6293:6294): CPU solicita escritura a memoria de usuario
+[INFO] 20:26:17:981 MEMORIA/(6293:6294): Cpu solicita escribir el valor 9999 en el marco 2 con desplazamiento: 160
+[INFO] 20:26:17:981 MEMORIA/(6293:6294): Se escribio el contenido: 9999 en el marco: 2
+[INFO] 20:26:18:983 MEMORIA/(6293:6294): CPU solicita lectura a memoria de usuario
+[INFO] 20:26:18:983 MEMORIA/(6293:6294): Se leyó el contenido: 9999 del marco: 2 con desplazamiento: 160
+[INFO] 20:26:19:983 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 20:26:19:983 MEMORIA/(6293:6294): entrada tabla: 1 ; numero tabla: 0
+[INFO] 20:26:19:983 MEMORIA/(6293:6294): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 20:26:19:983 MEMORIA/(6293:6294): CPU solicita lectura a memoria de usuario
+[INFO] 20:26:19:983 MEMORIA/(6293:6294): Se leyó el contenido: 3000 del marco: 1 con desplazamiento: 0
+[INFO] 20:26:20:984 MEMORIA/(6293:6296): Kernel solicita FINALIZACION PROCESO
+[INFO] 20:26:20:984 MEMORIA/(6293:6296): Id a finalizar: 0
+[ERROR] 20:28:58:143 MEMORIA/(6293:6296): Se desconecto el kernel
+[INFO] 21:21:31:967 MEMORIA/(18256:18256): ALGORITMO REEMPLAZO: CLOCK
+[INFO] 21:21:31:968 MEMORIA/(18256:18256): Cantidad de marcos: 64
+[INFO] 21:21:31:968 MEMORIA/(18256:18256): Memoria lista para recibir clientes
+[INFO] 21:21:31:968 MEMORIA/(18256:18257): Entro Atender CPU
+[INFO] 21:21:42:425 MEMORIA/(18256:18257): Se conecto CPU: 5
+[INFO] 21:21:42:425 MEMORIA/(18256:18257): CPU solicita acceso a info nro_filas_tabla_nivel1 y tamano_pagina
+[INFO] 21:21:42:426 MEMORIA/(18256:18296): Entro Atender KERNEL
+[INFO] 21:24:55:057 MEMORIA/(18256:18296): Kernel solicita INICIO PROCESO
+[INFO] 21:24:55:058 MEMORIA/(18256:18296): Se creo la tabla de primer nivel: 0
+[INFO] 21:24:55:062 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:24:55:062 MEMORIA/(18256:18257): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:24:55:062 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:24:55:062 MEMORIA/(18256:18257): No hizo falta reemplazar, se asignó el marco 0 a la página 0
+[INFO] 21:24:55:062 MEMORIA/(18256:18257): CPU solicita escritura a memoria de usuario
+[INFO] 21:24:55:062 MEMORIA/(18256:18257): Cpu solicita escribir el valor 100 en el marco 0 con desplazamiento: 0
+[INFO] 21:24:55:062 MEMORIA/(18256:18257): Se escribio el contenido: 100 en el marco: 0
+[INFO] 21:24:55:279 MEMORIA/(18256:18296): Kernel solicita INICIO PROCESO
+[INFO] 21:24:55:279 MEMORIA/(18256:18296): Se creo la tabla de primer nivel: 1
+[INFO] 21:24:58:062 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:24:58:062 MEMORIA/(18256:18257): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:24:58:062 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:24:58:062 MEMORIA/(18256:18257): No hizo falta reemplazar, se asignó el marco 1 a la página 1
+[INFO] 21:24:58:062 MEMORIA/(18256:18257): CPU solicita escritura a memoria de usuario
+[INFO] 21:24:58:062 MEMORIA/(18256:18257): Cpu solicita escribir el valor 101 en el marco 1 con desplazamiento: 4
+[INFO] 21:24:58:062 MEMORIA/(18256:18257): Se escribio el contenido: 101 en el marco: 1
+[INFO] 21:25:01:063 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:25:01:063 MEMORIA/(18256:18257): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:25:01:063 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:25:01:063 MEMORIA/(18256:18257): No hizo falta reemplazar, se asignó el marco 2 a la página 2
+[INFO] 21:25:01:063 MEMORIA/(18256:18257): CPU solicita escritura a memoria de usuario
+[INFO] 21:25:01:063 MEMORIA/(18256:18257): Cpu solicita escribir el valor 102 en el marco 2 con desplazamiento: 4
+[INFO] 21:25:01:063 MEMORIA/(18256:18257): Se escribio el contenido: 102 en el marco: 2
+[INFO] 21:25:04:063 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:25:04:063 MEMORIA/(18256:18257): entrada tabla: 1 ; numero tabla: 0
+[INFO] 21:25:04:063 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:25:04:063 MEMORIA/(18256:18257): No hizo falta reemplazar, se asignó el marco 3 a la página 4
+[INFO] 21:25:04:064 MEMORIA/(18256:18257): CPU solicita escritura a memoria de usuario
+[INFO] 21:25:04:064 MEMORIA/(18256:18257): Cpu solicita escribir el valor 104 en el marco 3 con desplazamiento: 8
+[INFO] 21:25:04:064 MEMORIA/(18256:18257): Se escribio el contenido: 104 en el marco: 3
+[INFO] 21:25:07:064 MEMORIA/(18256:18257): CPU solicita escritura a memoria de usuario
+[INFO] 21:25:07:064 MEMORIA/(18256:18257): Cpu solicita escribir el valor 110 en el marco 0 con desplazamiento: 4
+[INFO] 21:25:07:064 MEMORIA/(18256:18257): Se escribio el contenido: 110 en el marco: 0
+[INFO] 21:25:10:064 MEMORIA/(18256:18257): CPU solicita escritura a memoria de usuario
+[INFO] 21:25:10:064 MEMORIA/(18256:18257): Cpu solicita escribir el valor 120 en el marco 0 con desplazamiento: 8
+[INFO] 21:25:10:064 MEMORIA/(18256:18257): Se escribio el contenido: 120 en el marco: 0
+[INFO] 21:25:13:065 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:25:13:065 MEMORIA/(18256:18257): entrada tabla: 2 ; numero tabla: 0
+[INFO] 21:25:13:065 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:25:13:065 MEMORIA/(18256:18257): No hizo falta reemplazar, se asignó el marco 4 a la página 8
+[INFO] 21:25:13:065 MEMORIA/(18256:18257): CPU solicita escritura a memoria de usuario
+[INFO] 21:25:13:065 MEMORIA/(18256:18257): Cpu solicita escribir el valor 108 en el marco 4 con desplazamiento: 4
+[INFO] 21:25:13:065 MEMORIA/(18256:18257): Se escribio el contenido: 108 en el marco: 4
+[INFO] 21:25:16:066 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:25:16:066 MEMORIA/(18256:18257): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:25:16:066 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 21:25:16:066 MEMORIA/(18256:18257): CPU solicita lectura a memoria de usuario
+[INFO] 21:25:16:066 MEMORIA/(18256:18257): Se leyó el contenido: 100 del marco: 0 con desplazamiento: 0
+[INFO] 21:25:19:068 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:25:19:068 MEMORIA/(18256:18257): entrada tabla: 1 ; numero tabla: 1
+[INFO] 21:25:19:068 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:25:19:068 MEMORIA/(18256:18257): No hizo falta reemplazar, se asignó el marco 5 a la página 4
+[INFO] 21:25:19:068 MEMORIA/(18256:18257): CPU solicita escritura a memoria de usuario
+[INFO] 21:25:19:068 MEMORIA/(18256:18257): Cpu solicita escribir el valor 999 en el marco 5 con desplazamiento: 8
+[INFO] 21:25:19:068 MEMORIA/(18256:18257): Se escribio el contenido: 999 en el marco: 5
+[INFO] 21:25:22:068 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:25:22:068 MEMORIA/(18256:18257): entrada tabla: 0 ; numero tabla: 1
+[INFO] 21:25:22:068 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:25:22:069 MEMORIA/(18256:18257): No hizo falta reemplazar, se asignó el marco 6 a la página 2
+[INFO] 21:25:22:069 MEMORIA/(18256:18257): CPU solicita escritura a memoria de usuario
+[INFO] 21:25:22:069 MEMORIA/(18256:18257): Cpu solicita escribir el valor 999 en el marco 6 con desplazamiento: 4
+[INFO] 21:25:22:069 MEMORIA/(18256:18257): Se escribio el contenido: 999 en el marco: 6
+[INFO] 21:25:25:069 MEMORIA/(18256:18296): Kernel solicita FINALIZACION PROCESO
+[INFO] 21:25:25:069 MEMORIA/(18256:18296): Id a finalizar: 1
+[INFO] 21:25:25:070 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:25:25:070 MEMORIA/(18256:18257): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:25:25:070 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 21:25:25:070 MEMORIA/(18256:18257): CPU solicita lectura a memoria de usuario
+[INFO] 21:25:25:070 MEMORIA/(18256:18257): Se leyó el contenido: 102 del marco: 2 con desplazamiento: 4
+[INFO] 21:25:28:070 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:25:28:070 MEMORIA/(18256:18257): entrada tabla: 1 ; numero tabla: 0
+[INFO] 21:25:28:070 MEMORIA/(18256:18257): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 21:25:28:070 MEMORIA/(18256:18257): CPU solicita lectura a memoria de usuario
+[INFO] 21:25:28:070 MEMORIA/(18256:18257): Se leyó el contenido: 104 del marco: 3 con desplazamiento: 8
+[INFO] 21:25:31:071 MEMORIA/(18256:18296): Kernel solicita FINALIZACION PROCESO
+[INFO] 21:25:31:071 MEMORIA/(18256:18296): Id a finalizar: 0
+[ERROR] 21:55:30:631 MEMORIA/(18256:18296): Se desconecto el kernel
+[INFO] 21:55:37:193 MEMORIA/(25987:25987): ALGORITMO REEMPLAZO: CLOCK
+[INFO] 21:55:37:193 MEMORIA/(25987:25987): Cantidad de marcos: 64
+[INFO] 21:55:37:194 MEMORIA/(25987:25987): Memoria lista para recibir clientes
+[INFO] 21:55:37:194 MEMORIA/(25987:25988): Entro Atender CPU
+[INFO] 21:55:38:418 MEMORIA/(25987:25988): Se conecto CPU: 5
+[INFO] 21:55:38:418 MEMORIA/(25987:25988): CPU solicita acceso a info nro_filas_tabla_nivel1 y tamano_pagina
+[INFO] 21:55:38:418 MEMORIA/(25987:25995): Entro Atender KERNEL
+[INFO] 21:55:41:376 MEMORIA/(25987:25995): Kernel solicita INICIO PROCESO
+[INFO] 21:55:41:376 MEMORIA/(25987:25995): Se creo la tabla de primer nivel: 0
+[INFO] 21:55:41:376 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:55:41:376 MEMORIA/(25987:25988): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:55:41:376 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:55:41:376 MEMORIA/(25987:25988): No hizo falta reemplazar, se asignó el marco 0 a la página 0
+[INFO] 21:55:41:376 MEMORIA/(25987:25988): CPU solicita escritura a memoria de usuario
+[INFO] 21:55:41:376 MEMORIA/(25987:25988): Cpu solicita escribir el valor 100 en el marco 0 con desplazamiento: 0
+[INFO] 21:55:41:376 MEMORIA/(25987:25988): Se escribio el contenido: 100 en el marco: 0
+[INFO] 21:55:41:587 MEMORIA/(25987:25995): Kernel solicita INICIO PROCESO
+[INFO] 21:55:41:587 MEMORIA/(25987:25995): Se creo la tabla de primer nivel: 1
+[INFO] 21:55:44:377 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:55:44:377 MEMORIA/(25987:25988): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:55:44:377 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:55:44:377 MEMORIA/(25987:25988): No hizo falta reemplazar, se asignó el marco 1 a la página 1
+[INFO] 21:55:44:377 MEMORIA/(25987:25988): CPU solicita escritura a memoria de usuario
+[INFO] 21:55:44:377 MEMORIA/(25987:25988): Cpu solicita escribir el valor 101 en el marco 1 con desplazamiento: 4
+[INFO] 21:55:44:377 MEMORIA/(25987:25988): Se escribio el contenido: 101 en el marco: 1
+[INFO] 21:55:47:377 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:55:47:377 MEMORIA/(25987:25988): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:55:47:378 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:55:47:378 MEMORIA/(25987:25988): No hizo falta reemplazar, se asignó el marco 2 a la página 2
+[INFO] 21:55:47:378 MEMORIA/(25987:25988): CPU solicita escritura a memoria de usuario
+[INFO] 21:55:47:378 MEMORIA/(25987:25988): Cpu solicita escribir el valor 102 en el marco 2 con desplazamiento: 4
+[INFO] 21:55:47:378 MEMORIA/(25987:25988): Se escribio el contenido: 102 en el marco: 2
+[INFO] 21:55:50:378 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:55:50:378 MEMORIA/(25987:25988): entrada tabla: 1 ; numero tabla: 0
+[INFO] 21:55:50:378 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:55:50:378 MEMORIA/(25987:25988): No hizo falta reemplazar, se asignó el marco 3 a la página 4
+[INFO] 21:55:50:379 MEMORIA/(25987:25988): CPU solicita escritura a memoria de usuario
+[INFO] 21:55:50:379 MEMORIA/(25987:25988): Cpu solicita escribir el valor 104 en el marco 3 con desplazamiento: 8
+[INFO] 21:55:50:379 MEMORIA/(25987:25988): Se escribio el contenido: 104 en el marco: 3
+[INFO] 21:55:53:379 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:55:53:379 MEMORIA/(25987:25988): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:55:53:379 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 21:55:53:379 MEMORIA/(25987:25988): CPU solicita escritura a memoria de usuario
+[INFO] 21:55:53:379 MEMORIA/(25987:25988): Cpu solicita escribir el valor 110 en el marco 0 con desplazamiento: 4
+[INFO] 21:55:53:379 MEMORIA/(25987:25988): Se escribio el contenido: 110 en el marco: 0
+[INFO] 21:55:56:386 MEMORIA/(25987:25988): CPU solicita escritura a memoria de usuario
+[INFO] 21:55:56:386 MEMORIA/(25987:25988): Cpu solicita escribir el valor 120 en el marco 0 con desplazamiento: 8
+[INFO] 21:55:56:386 MEMORIA/(25987:25988): Se escribio el contenido: 120 en el marco: 0
+[INFO] 21:55:59:386 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:55:59:386 MEMORIA/(25987:25988): entrada tabla: 2 ; numero tabla: 0
+[INFO] 21:55:59:386 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:55:59:386 MEMORIA/(25987:25988): No hizo falta reemplazar, se asignó el marco 4 a la página 8
+[INFO] 21:55:59:386 MEMORIA/(25987:25988): CPU solicita escritura a memoria de usuario
+[INFO] 21:55:59:386 MEMORIA/(25987:25988): Cpu solicita escribir el valor 108 en el marco 4 con desplazamiento: 4
+[INFO] 21:55:59:386 MEMORIA/(25987:25988): Se escribio el contenido: 108 en el marco: 4
+[INFO] 21:56:02:387 MEMORIA/(25987:25988): CPU solicita lectura a memoria de usuario
+[INFO] 21:56:02:387 MEMORIA/(25987:25988): Se leyó el contenido: 100 del marco: 0 con desplazamiento: 0
+[INFO] 21:56:05:387 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:56:05:387 MEMORIA/(25987:25988): entrada tabla: 1 ; numero tabla: 1
+[INFO] 21:56:05:387 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:56:05:387 MEMORIA/(25987:25988): No hizo falta reemplazar, se asignó el marco 5 a la página 4
+[INFO] 21:56:05:388 MEMORIA/(25987:25988): CPU solicita escritura a memoria de usuario
+[INFO] 21:56:05:388 MEMORIA/(25987:25988): Cpu solicita escribir el valor 999 en el marco 5 con desplazamiento: 8
+[INFO] 21:56:05:388 MEMORIA/(25987:25988): Se escribio el contenido: 999 en el marco: 5
+[INFO] 21:56:08:388 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:56:08:388 MEMORIA/(25987:25988): entrada tabla: 0 ; numero tabla: 1
+[INFO] 21:56:08:388 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:56:08:388 MEMORIA/(25987:25988): No hizo falta reemplazar, se asignó el marco 6 a la página 2
+[INFO] 21:56:08:388 MEMORIA/(25987:25988): CPU solicita escritura a memoria de usuario
+[INFO] 21:56:08:388 MEMORIA/(25987:25988): Cpu solicita escribir el valor 999 en el marco 6 con desplazamiento: 4
+[INFO] 21:56:08:388 MEMORIA/(25987:25988): Se escribio el contenido: 999 en el marco: 6
+[INFO] 21:56:11:388 MEMORIA/(25987:25995): Kernel solicita FINALIZACION PROCESO
+[INFO] 21:56:11:388 MEMORIA/(25987:25995): Id a finalizar: 1
+[INFO] 21:56:11:389 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:56:11:389 MEMORIA/(25987:25988): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:56:11:389 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 21:56:11:389 MEMORIA/(25987:25988): CPU solicita lectura a memoria de usuario
+[INFO] 21:56:11:389 MEMORIA/(25987:25988): Se leyó el contenido: 102 del marco: 2 con desplazamiento: 4
+[INFO] 21:56:14:389 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:56:14:389 MEMORIA/(25987:25988): entrada tabla: 1 ; numero tabla: 0
+[INFO] 21:56:14:389 MEMORIA/(25987:25988): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 21:56:14:389 MEMORIA/(25987:25988): CPU solicita lectura a memoria de usuario
+[INFO] 21:56:14:389 MEMORIA/(25987:25988): Se leyó el contenido: 104 del marco: 3 con desplazamiento: 8
+[INFO] 21:56:17:390 MEMORIA/(25987:25995): Kernel solicita FINALIZACION PROCESO
+[INFO] 21:56:17:390 MEMORIA/(25987:25995): Id a finalizar: 0
+[ERROR] 21:57:38:980 MEMORIA/(25987:25995): Se desconecto el kernel
+[INFO] 21:58:29:905 MEMORIA/(26683:26683): ALGORITMO REEMPLAZO: CLOCK
+[INFO] 21:58:29:914 MEMORIA/(26683:26683): Cantidad de marcos: 64
+[INFO] 21:58:29:916 MEMORIA/(26683:26683): Memoria lista para recibir clientes
+[INFO] 21:58:29:916 MEMORIA/(26683:26684): Entro Atender CPU
+[INFO] 21:58:34:651 MEMORIA/(26683:26684): Se conecto CPU: 5
+[INFO] 21:58:34:651 MEMORIA/(26683:26684): CPU solicita acceso a info nro_filas_tabla_nivel1 y tamano_pagina
+[INFO] 21:58:34:652 MEMORIA/(26683:26701): Entro Atender KERNEL
+[INFO] 21:58:38:890 MEMORIA/(26683:26701): Kernel solicita INICIO PROCESO
+[INFO] 21:58:38:890 MEMORIA/(26683:26701): Se creo la tabla de primer nivel: 0
+[INFO] 21:58:38:891 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:58:38:891 MEMORIA/(26683:26684): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:58:38:891 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:58:38:891 MEMORIA/(26683:26684): No hizo falta reemplazar, se asignó el marco 0 a la página 0
+[INFO] 21:58:38:891 MEMORIA/(26683:26684): CPU solicita escritura a memoria de usuario
+[INFO] 21:58:38:891 MEMORIA/(26683:26684): Cpu solicita escribir el valor 100 en el marco 0 con desplazamiento: 0
+[INFO] 21:58:38:891 MEMORIA/(26683:26684): Se escribio el contenido: 100 en el marco: 0
+[INFO] 21:58:39:147 MEMORIA/(26683:26701): Kernel solicita INICIO PROCESO
+[INFO] 21:58:39:147 MEMORIA/(26683:26701): Se creo la tabla de primer nivel: 1
+[INFO] 21:58:41:891 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:58:41:891 MEMORIA/(26683:26684): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:58:41:891 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:58:41:891 MEMORIA/(26683:26684): No hizo falta reemplazar, se asignó el marco 1 a la página 1
+[INFO] 21:58:41:891 MEMORIA/(26683:26684): CPU solicita escritura a memoria de usuario
+[INFO] 21:58:41:891 MEMORIA/(26683:26684): Cpu solicita escribir el valor 101 en el marco 1 con desplazamiento: 4
+[INFO] 21:58:41:891 MEMORIA/(26683:26684): Se escribio el contenido: 101 en el marco: 1
+[INFO] 21:58:44:892 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:58:44:892 MEMORIA/(26683:26684): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:58:44:892 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:58:44:892 MEMORIA/(26683:26684): No hizo falta reemplazar, se asignó el marco 2 a la página 2
+[INFO] 21:58:44:892 MEMORIA/(26683:26684): CPU solicita escritura a memoria de usuario
+[INFO] 21:58:44:892 MEMORIA/(26683:26684): Cpu solicita escribir el valor 102 en el marco 2 con desplazamiento: 4
+[INFO] 21:58:44:892 MEMORIA/(26683:26684): Se escribio el contenido: 102 en el marco: 2
+[INFO] 21:58:47:892 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:58:47:892 MEMORIA/(26683:26684): entrada tabla: 1 ; numero tabla: 0
+[INFO] 21:58:47:892 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:58:47:892 MEMORIA/(26683:26684): No hizo falta reemplazar, se asignó el marco 3 a la página 4
+[INFO] 21:58:47:892 MEMORIA/(26683:26684): CPU solicita escritura a memoria de usuario
+[INFO] 21:58:47:892 MEMORIA/(26683:26684): Cpu solicita escribir el valor 104 en el marco 3 con desplazamiento: 8
+[INFO] 21:58:47:892 MEMORIA/(26683:26684): Se escribio el contenido: 104 en el marco: 3
+[INFO] 21:58:50:892 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:58:50:892 MEMORIA/(26683:26684): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:58:50:892 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 21:58:50:893 MEMORIA/(26683:26684): CPU solicita escritura a memoria de usuario
+[INFO] 21:58:50:893 MEMORIA/(26683:26684): Cpu solicita escribir el valor 110 en el marco 0 con desplazamiento: 4
+[INFO] 21:58:50:893 MEMORIA/(26683:26684): Se escribio el contenido: 110 en el marco: 0
+[INFO] 21:58:53:893 MEMORIA/(26683:26684): CPU solicita escritura a memoria de usuario
+[INFO] 21:58:53:893 MEMORIA/(26683:26684): Cpu solicita escribir el valor 120 en el marco 0 con desplazamiento: 8
+[INFO] 21:58:53:893 MEMORIA/(26683:26684): Se escribio el contenido: 120 en el marco: 0
+[INFO] 21:58:56:894 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:58:56:894 MEMORIA/(26683:26684): entrada tabla: 2 ; numero tabla: 0
+[INFO] 21:58:56:894 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:58:56:894 MEMORIA/(26683:26684): No hizo falta reemplazar, se asignó el marco 4 a la página 8
+[INFO] 21:58:56:894 MEMORIA/(26683:26684): CPU solicita escritura a memoria de usuario
+[INFO] 21:58:56:894 MEMORIA/(26683:26684): Cpu solicita escribir el valor 108 en el marco 4 con desplazamiento: 4
+[INFO] 21:58:56:894 MEMORIA/(26683:26684): Se escribio el contenido: 108 en el marco: 4
+[INFO] 21:58:59:894 MEMORIA/(26683:26684): CPU solicita lectura a memoria de usuario
+[INFO] 21:58:59:894 MEMORIA/(26683:26684): Se leyó el contenido: 100 del marco: 0 con desplazamiento: 0
+[INFO] 21:59:02:895 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:59:02:895 MEMORIA/(26683:26684): entrada tabla: 1 ; numero tabla: 1
+[INFO] 21:59:02:895 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:59:02:895 MEMORIA/(26683:26684): No hizo falta reemplazar, se asignó el marco 5 a la página 4
+[INFO] 21:59:02:895 MEMORIA/(26683:26684): CPU solicita escritura a memoria de usuario
+[INFO] 21:59:02:895 MEMORIA/(26683:26684): Cpu solicita escribir el valor 999 en el marco 5 con desplazamiento: 8
+[INFO] 21:59:02:895 MEMORIA/(26683:26684): Se escribio el contenido: 999 en el marco: 5
+[INFO] 21:59:05:896 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:59:05:896 MEMORIA/(26683:26684): entrada tabla: 0 ; numero tabla: 1
+[INFO] 21:59:05:896 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 21:59:05:896 MEMORIA/(26683:26684): No hizo falta reemplazar, se asignó el marco 6 a la página 2
+[INFO] 21:59:05:896 MEMORIA/(26683:26684): CPU solicita escritura a memoria de usuario
+[INFO] 21:59:05:896 MEMORIA/(26683:26684): Cpu solicita escribir el valor 999 en el marco 6 con desplazamiento: 4
+[INFO] 21:59:05:896 MEMORIA/(26683:26684): Se escribio el contenido: 999 en el marco: 6
+[INFO] 21:59:08:897 MEMORIA/(26683:26701): Kernel solicita FINALIZACION PROCESO
+[INFO] 21:59:08:897 MEMORIA/(26683:26701): Id a finalizar: 1
+[INFO] 21:59:08:898 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:59:08:898 MEMORIA/(26683:26684): entrada tabla: 0 ; numero tabla: 0
+[INFO] 21:59:08:898 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 21:59:08:899 MEMORIA/(26683:26684): CPU solicita lectura a memoria de usuario
+[INFO] 21:59:08:899 MEMORIA/(26683:26684): Se leyó el contenido: 102 del marco: 2 con desplazamiento: 4
+[INFO] 21:59:11:899 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 21:59:11:899 MEMORIA/(26683:26684): entrada tabla: 1 ; numero tabla: 0
+[INFO] 21:59:11:899 MEMORIA/(26683:26684): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 21:59:11:899 MEMORIA/(26683:26684): CPU solicita lectura a memoria de usuario
+[INFO] 21:59:11:899 MEMORIA/(26683:26684): Se leyó el contenido: 104 del marco: 3 con desplazamiento: 8
+[INFO] 21:59:14:901 MEMORIA/(26683:26701): Kernel solicita FINALIZACION PROCESO
+[INFO] 21:59:14:901 MEMORIA/(26683:26701): Id a finalizar: 0
+[ERROR] 21:59:37:857 MEMORIA/(26683:26701): Se desconecto el kernel
+[INFO] 22:00:01:702 MEMORIA/(27029:27029): ALGORITMO REEMPLAZO: CLOCK
+[INFO] 22:00:01:710 MEMORIA/(27029:27029): Cantidad de marcos: 64
+[INFO] 22:00:01:711 MEMORIA/(27029:27029): Memoria lista para recibir clientes
+[INFO] 22:00:01:711 MEMORIA/(27029:27030): Entro Atender CPU
+[INFO] 22:00:02:515 MEMORIA/(27029:27030): Se conecto CPU: 5
+[INFO] 22:00:02:515 MEMORIA/(27029:27030): CPU solicita acceso a info nro_filas_tabla_nivel1 y tamano_pagina
+[INFO] 22:00:02:516 MEMORIA/(27029:27037): Entro Atender KERNEL
+[INFO] 22:00:05:676 MEMORIA/(27029:27037): Kernel solicita INICIO PROCESO
+[INFO] 22:00:05:676 MEMORIA/(27029:27037): Se creo la tabla de primer nivel: 0
+[INFO] 22:00:05:677 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:00:05:677 MEMORIA/(27029:27030): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:00:05:677 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:00:05:677 MEMORIA/(27029:27030): No hizo falta reemplazar, se asignó el marco 0 a la página 0
+[INFO] 22:00:05:677 MEMORIA/(27029:27030): CPU solicita escritura a memoria de usuario
+[INFO] 22:00:05:677 MEMORIA/(27029:27030): Cpu solicita escribir el valor 100 en el marco 0 con desplazamiento: 0
+[INFO] 22:00:05:677 MEMORIA/(27029:27030): Se escribio el contenido: 100 en el marco: 0
+[INFO] 22:00:05:925 MEMORIA/(27029:27037): Kernel solicita INICIO PROCESO
+[INFO] 22:00:05:925 MEMORIA/(27029:27037): Se creo la tabla de primer nivel: 1
+[INFO] 22:00:08:677 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:00:08:677 MEMORIA/(27029:27030): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:00:08:677 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:00:08:678 MEMORIA/(27029:27030): No hizo falta reemplazar, se asignó el marco 1 a la página 1
+[INFO] 22:00:08:678 MEMORIA/(27029:27030): CPU solicita escritura a memoria de usuario
+[INFO] 22:00:08:678 MEMORIA/(27029:27030): Cpu solicita escribir el valor 101 en el marco 1 con desplazamiento: 4
+[INFO] 22:00:08:678 MEMORIA/(27029:27030): Se escribio el contenido: 101 en el marco: 1
+[INFO] 22:00:11:679 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:00:11:679 MEMORIA/(27029:27030): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:00:11:679 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:00:11:680 MEMORIA/(27029:27030): No hizo falta reemplazar, se asignó el marco 2 a la página 2
+[INFO] 22:00:11:680 MEMORIA/(27029:27030): CPU solicita escritura a memoria de usuario
+[INFO] 22:00:11:680 MEMORIA/(27029:27030): Cpu solicita escribir el valor 102 en el marco 2 con desplazamiento: 4
+[INFO] 22:00:11:680 MEMORIA/(27029:27030): Se escribio el contenido: 102 en el marco: 2
+[INFO] 22:00:14:681 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:00:14:681 MEMORIA/(27029:27030): entrada tabla: 1 ; numero tabla: 0
+[INFO] 22:00:14:681 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:00:14:681 MEMORIA/(27029:27030): No hizo falta reemplazar, se asignó el marco 3 a la página 4
+[INFO] 22:00:14:681 MEMORIA/(27029:27030): CPU solicita escritura a memoria de usuario
+[INFO] 22:00:14:681 MEMORIA/(27029:27030): Cpu solicita escribir el valor 104 en el marco 3 con desplazamiento: 8
+[INFO] 22:00:14:681 MEMORIA/(27029:27030): Se escribio el contenido: 104 en el marco: 3
+[INFO] 22:00:17:682 MEMORIA/(27029:27030): CPU solicita escritura a memoria de usuario
+[INFO] 22:00:17:682 MEMORIA/(27029:27030): Cpu solicita escribir el valor 110 en el marco 0 con desplazamiento: 4
+[INFO] 22:00:17:682 MEMORIA/(27029:27030): Se escribio el contenido: 110 en el marco: 0
+[INFO] 22:00:20:683 MEMORIA/(27029:27030): CPU solicita escritura a memoria de usuario
+[INFO] 22:00:20:683 MEMORIA/(27029:27030): Cpu solicita escribir el valor 120 en el marco 0 con desplazamiento: 8
+[INFO] 22:00:20:683 MEMORIA/(27029:27030): Se escribio el contenido: 120 en el marco: 0
+[INFO] 22:00:23:684 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:00:23:684 MEMORIA/(27029:27030): entrada tabla: 2 ; numero tabla: 0
+[INFO] 22:00:23:684 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:00:23:684 MEMORIA/(27029:27030): No hizo falta reemplazar, se asignó el marco 4 a la página 8
+[INFO] 22:00:23:685 MEMORIA/(27029:27030): CPU solicita escritura a memoria de usuario
+[INFO] 22:00:23:685 MEMORIA/(27029:27030): Cpu solicita escribir el valor 108 en el marco 4 con desplazamiento: 4
+[INFO] 22:00:23:685 MEMORIA/(27029:27030): Se escribio el contenido: 108 en el marco: 4
+[INFO] 22:00:26:685 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:00:26:685 MEMORIA/(27029:27030): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:00:26:685 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 22:00:26:685 MEMORIA/(27029:27030): CPU solicita lectura a memoria de usuario
+[INFO] 22:00:26:685 MEMORIA/(27029:27030): Se leyó el contenido: 100 del marco: 0 con desplazamiento: 0
+[INFO] 22:00:29:687 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:00:29:687 MEMORIA/(27029:27030): entrada tabla: 1 ; numero tabla: 1
+[INFO] 22:00:29:687 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:00:29:687 MEMORIA/(27029:27030): No hizo falta reemplazar, se asignó el marco 5 a la página 4
+[INFO] 22:00:29:687 MEMORIA/(27029:27030): CPU solicita escritura a memoria de usuario
+[INFO] 22:00:29:687 MEMORIA/(27029:27030): Cpu solicita escribir el valor 999 en el marco 5 con desplazamiento: 8
+[INFO] 22:00:29:687 MEMORIA/(27029:27030): Se escribio el contenido: 999 en el marco: 5
+[INFO] 22:00:32:687 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:00:32:687 MEMORIA/(27029:27030): entrada tabla: 0 ; numero tabla: 1
+[INFO] 22:00:32:687 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:00:32:688 MEMORIA/(27029:27030): No hizo falta reemplazar, se asignó el marco 6 a la página 2
+[INFO] 22:00:32:688 MEMORIA/(27029:27030): CPU solicita escritura a memoria de usuario
+[INFO] 22:00:32:688 MEMORIA/(27029:27030): Cpu solicita escribir el valor 999 en el marco 6 con desplazamiento: 4
+[INFO] 22:00:32:688 MEMORIA/(27029:27030): Se escribio el contenido: 999 en el marco: 6
+[INFO] 22:00:35:689 MEMORIA/(27029:27037): Kernel solicita FINALIZACION PROCESO
+[INFO] 22:00:35:689 MEMORIA/(27029:27037): Id a finalizar: 1
+[INFO] 22:00:35:689 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:00:35:689 MEMORIA/(27029:27030): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:00:35:689 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 22:00:35:690 MEMORIA/(27029:27030): CPU solicita lectura a memoria de usuario
+[INFO] 22:00:35:690 MEMORIA/(27029:27030): Se leyó el contenido: 102 del marco: 2 con desplazamiento: 4
+[INFO] 22:00:38:690 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:00:38:690 MEMORIA/(27029:27030): entrada tabla: 1 ; numero tabla: 0
+[INFO] 22:00:38:690 MEMORIA/(27029:27030): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 22:00:38:690 MEMORIA/(27029:27030): CPU solicita lectura a memoria de usuario
+[INFO] 22:00:38:690 MEMORIA/(27029:27030): Se leyó el contenido: 104 del marco: 3 con desplazamiento: 8
+[INFO] 22:00:41:690 MEMORIA/(27029:27037): Kernel solicita FINALIZACION PROCESO
+[INFO] 22:00:41:690 MEMORIA/(27029:27037): Id a finalizar: 0
+[ERROR] 22:01:52:578 MEMORIA/(27029:27030): Se desconecto la cpu
+[INFO] 22:04:32:925 MEMORIA/(28077:28077): ALGORITMO REEMPLAZO: CLOCK
+[INFO] 22:04:32:935 MEMORIA/(28077:28077): Cantidad de marcos: 64
+[INFO] 22:04:32:937 MEMORIA/(28077:28077): Memoria lista para recibir clientes
+[INFO] 22:04:32:937 MEMORIA/(28077:28078): Entro Atender CPU
+[INFO] 22:04:33:504 MEMORIA/(28077:28078): Se conecto CPU: 5
+[INFO] 22:04:33:504 MEMORIA/(28077:28078): CPU solicita acceso a info nro_filas_tabla_nivel1 y tamano_pagina
+[INFO] 22:04:33:505 MEMORIA/(28077:28080): Entro Atender KERNEL
+[INFO] 22:04:35:364 MEMORIA/(28077:28080): Kernel solicita INICIO PROCESO
+[INFO] 22:04:35:364 MEMORIA/(28077:28080): Se creo la tabla de primer nivel: 0
+[INFO] 22:04:35:364 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:04:35:364 MEMORIA/(28077:28078): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:04:35:364 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:04:35:364 MEMORIA/(28077:28078): No hizo falta reemplazar, se asignó el marco 0 a la página 0
+[INFO] 22:04:35:364 MEMORIA/(28077:28078): CPU solicita escritura a memoria de usuario
+[INFO] 22:04:35:364 MEMORIA/(28077:28078): Cpu solicita escribir el valor 100 en el marco 0 con desplazamiento: 0
+[INFO] 22:04:35:364 MEMORIA/(28077:28078): Se escribio el contenido: 100 en el marco: 0
+[INFO] 22:04:35:748 MEMORIA/(28077:28080): Kernel solicita INICIO PROCESO
+[INFO] 22:04:35:748 MEMORIA/(28077:28080): Se creo la tabla de primer nivel: 1
+[INFO] 22:04:38:367 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:04:38:367 MEMORIA/(28077:28078): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:04:38:367 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:04:38:367 MEMORIA/(28077:28078): No hizo falta reemplazar, se asignó el marco 1 a la página 1
+[INFO] 22:04:38:367 MEMORIA/(28077:28078): CPU solicita escritura a memoria de usuario
+[INFO] 22:04:38:367 MEMORIA/(28077:28078): Cpu solicita escribir el valor 101 en el marco 1 con desplazamiento: 4
+[INFO] 22:04:38:367 MEMORIA/(28077:28078): Se escribio el contenido: 101 en el marco: 1
+[INFO] 22:04:41:367 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:04:41:367 MEMORIA/(28077:28078): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:04:41:367 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:04:41:367 MEMORIA/(28077:28078): No hizo falta reemplazar, se asignó el marco 2 a la página 2
+[INFO] 22:04:41:367 MEMORIA/(28077:28078): CPU solicita escritura a memoria de usuario
+[INFO] 22:04:41:367 MEMORIA/(28077:28078): Cpu solicita escribir el valor 102 en el marco 2 con desplazamiento: 4
+[INFO] 22:04:41:367 MEMORIA/(28077:28078): Se escribio el contenido: 102 en el marco: 2
+[INFO] 22:04:44:368 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:04:44:368 MEMORIA/(28077:28078): entrada tabla: 1 ; numero tabla: 0
+[INFO] 22:04:44:368 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:04:44:369 MEMORIA/(28077:28078): No hizo falta reemplazar, se asignó el marco 3 a la página 4
+[INFO] 22:04:44:369 MEMORIA/(28077:28078): CPU solicita escritura a memoria de usuario
+[INFO] 22:04:44:369 MEMORIA/(28077:28078): Cpu solicita escribir el valor 104 en el marco 3 con desplazamiento: 8
+[INFO] 22:04:44:369 MEMORIA/(28077:28078): Se escribio el contenido: 104 en el marco: 3
+[INFO] 22:04:47:369 MEMORIA/(28077:28078): CPU solicita escritura a memoria de usuario
+[INFO] 22:04:47:369 MEMORIA/(28077:28078): Cpu solicita escribir el valor 110 en el marco 0 con desplazamiento: 4
+[INFO] 22:04:47:369 MEMORIA/(28077:28078): Se escribio el contenido: 110 en el marco: 0
+[INFO] 22:04:50:369 MEMORIA/(28077:28078): CPU solicita escritura a memoria de usuario
+[INFO] 22:04:50:369 MEMORIA/(28077:28078): Cpu solicita escribir el valor 120 en el marco 0 con desplazamiento: 8
+[INFO] 22:04:50:369 MEMORIA/(28077:28078): Se escribio el contenido: 120 en el marco: 0
+[INFO] 22:04:53:370 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:04:53:370 MEMORIA/(28077:28078): entrada tabla: 2 ; numero tabla: 0
+[INFO] 22:04:53:370 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:04:53:370 MEMORIA/(28077:28078): No hizo falta reemplazar, se asignó el marco 4 a la página 8
+[INFO] 22:04:53:370 MEMORIA/(28077:28078): CPU solicita escritura a memoria de usuario
+[INFO] 22:04:53:370 MEMORIA/(28077:28078): Cpu solicita escribir el valor 108 en el marco 4 con desplazamiento: 4
+[INFO] 22:04:53:370 MEMORIA/(28077:28078): Se escribio el contenido: 108 en el marco: 4
+[INFO] 22:04:56:370 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:04:56:370 MEMORIA/(28077:28078): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:04:56:370 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 22:04:56:370 MEMORIA/(28077:28078): CPU solicita lectura a memoria de usuario
+[INFO] 22:04:56:370 MEMORIA/(28077:28078): Se leyó el contenido: 100 del marco: 0 con desplazamiento: 0
+[INFO] 22:04:59:371 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:04:59:371 MEMORIA/(28077:28078): entrada tabla: 1 ; numero tabla: 1
+[INFO] 22:04:59:371 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:04:59:371 MEMORIA/(28077:28078): No hizo falta reemplazar, se asignó el marco 5 a la página 4
+[INFO] 22:04:59:371 MEMORIA/(28077:28078): CPU solicita escritura a memoria de usuario
+[INFO] 22:04:59:371 MEMORIA/(28077:28078): Cpu solicita escribir el valor 999 en el marco 5 con desplazamiento: 8
+[INFO] 22:04:59:371 MEMORIA/(28077:28078): Se escribio el contenido: 999 en el marco: 5
+[INFO] 22:05:02:371 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:05:02:371 MEMORIA/(28077:28078): entrada tabla: 0 ; numero tabla: 1
+[INFO] 22:05:02:371 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:05:02:371 MEMORIA/(28077:28078): No hizo falta reemplazar, se asignó el marco 6 a la página 2
+[INFO] 22:05:02:371 MEMORIA/(28077:28078): CPU solicita escritura a memoria de usuario
+[INFO] 22:05:02:371 MEMORIA/(28077:28078): Cpu solicita escribir el valor 999 en el marco 6 con desplazamiento: 4
+[INFO] 22:05:02:371 MEMORIA/(28077:28078): Se escribio el contenido: 999 en el marco: 6
+[INFO] 22:05:05:372 MEMORIA/(28077:28080): Kernel solicita FINALIZACION PROCESO
+[INFO] 22:05:05:372 MEMORIA/(28077:28080): Id a finalizar: 1
+[INFO] 22:05:05:372 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:05:05:372 MEMORIA/(28077:28078): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:05:05:372 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 22:05:05:372 MEMORIA/(28077:28078): CPU solicita lectura a memoria de usuario
+[INFO] 22:05:05:372 MEMORIA/(28077:28078): Se leyó el contenido: 102 del marco: 2 con desplazamiento: 4
+[INFO] 22:05:08:373 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:05:08:373 MEMORIA/(28077:28078): entrada tabla: 1 ; numero tabla: 0
+[INFO] 22:05:08:373 MEMORIA/(28077:28078): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 22:05:08:373 MEMORIA/(28077:28078): CPU solicita lectura a memoria de usuario
+[INFO] 22:05:08:373 MEMORIA/(28077:28078): Se leyó el contenido: 104 del marco: 3 con desplazamiento: 8
+[INFO] 22:05:11:374 MEMORIA/(28077:28080): Kernel solicita FINALIZACION PROCESO
+[INFO] 22:05:11:374 MEMORIA/(28077:28080): Id a finalizar: 0
+[ERROR] 22:07:32:764 MEMORIA/(28077:28080): Se desconecto el kernel
+[INFO] 22:08:01:958 MEMORIA/(28832:28832): ALGORITMO REEMPLAZO: CLOCK
+[INFO] 22:08:01:967 MEMORIA/(28832:28832): Cantidad de marcos: 64
+[INFO] 22:08:01:968 MEMORIA/(28832:28832): Memoria lista para recibir clientes
+[INFO] 22:08:01:968 MEMORIA/(28832:28833): Entro Atender CPU
+[INFO] 22:08:05:390 MEMORIA/(28832:28833): Se conecto CPU: 5
+[INFO] 22:08:05:390 MEMORIA/(28832:28833): CPU solicita acceso a info nro_filas_tabla_nivel1 y tamano_pagina
+[INFO] 22:08:05:390 MEMORIA/(28832:28854): Entro Atender KERNEL
+[INFO] 22:08:08:990 MEMORIA/(28832:28854): Kernel solicita INICIO PROCESO
+[INFO] 22:08:08:990 MEMORIA/(28832:28854): Se creo la tabla de primer nivel: 0
+[INFO] 22:08:08:990 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:08:08:990 MEMORIA/(28832:28833): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:08:08:990 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:08:08:990 MEMORIA/(28832:28833): No hizo falta reemplazar, se asignó el marco 0 a la página 0
+[INFO] 22:08:08:990 MEMORIA/(28832:28833): CPU solicita escritura a memoria de usuario
+[INFO] 22:08:08:990 MEMORIA/(28832:28833): Cpu solicita escribir el valor 100 en el marco 0 con desplazamiento: 0
+[INFO] 22:08:08:990 MEMORIA/(28832:28833): Se escribio el contenido: 100 en el marco: 0
+[INFO] 22:08:09:246 MEMORIA/(28832:28854): Kernel solicita INICIO PROCESO
+[INFO] 22:08:09:246 MEMORIA/(28832:28854): Se creo la tabla de primer nivel: 1
+[INFO] 22:08:11:991 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:08:11:991 MEMORIA/(28832:28833): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:08:11:991 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:08:11:991 MEMORIA/(28832:28833): No hizo falta reemplazar, se asignó el marco 1 a la página 1
+[INFO] 22:08:11:991 MEMORIA/(28832:28833): CPU solicita escritura a memoria de usuario
+[INFO] 22:08:11:991 MEMORIA/(28832:28833): Cpu solicita escribir el valor 101 en el marco 1 con desplazamiento: 4
+[INFO] 22:08:11:991 MEMORIA/(28832:28833): Se escribio el contenido: 101 en el marco: 1
+[INFO] 22:08:14:991 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:08:14:991 MEMORIA/(28832:28833): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:08:14:991 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:08:14:991 MEMORIA/(28832:28833): No hizo falta reemplazar, se asignó el marco 2 a la página 2
+[INFO] 22:08:14:992 MEMORIA/(28832:28833): CPU solicita escritura a memoria de usuario
+[INFO] 22:08:14:992 MEMORIA/(28832:28833): Cpu solicita escribir el valor 102 en el marco 2 con desplazamiento: 4
+[INFO] 22:08:14:992 MEMORIA/(28832:28833): Se escribio el contenido: 102 en el marco: 2
+[INFO] 22:08:17:992 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:08:17:992 MEMORIA/(28832:28833): entrada tabla: 1 ; numero tabla: 0
+[INFO] 22:08:17:992 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:08:17:992 MEMORIA/(28832:28833): No hizo falta reemplazar, se asignó el marco 3 a la página 4
+[INFO] 22:08:17:993 MEMORIA/(28832:28833): CPU solicita escritura a memoria de usuario
+[INFO] 22:08:17:993 MEMORIA/(28832:28833): Cpu solicita escribir el valor 104 en el marco 3 con desplazamiento: 8
+[INFO] 22:08:17:993 MEMORIA/(28832:28833): Se escribio el contenido: 104 en el marco: 3
+[INFO] 22:08:20:994 MEMORIA/(28832:28833): CPU solicita escritura a memoria de usuario
+[INFO] 22:08:20:994 MEMORIA/(28832:28833): Cpu solicita escribir el valor 110 en el marco 0 con desplazamiento: 4
+[INFO] 22:08:20:994 MEMORIA/(28832:28833): Se escribio el contenido: 110 en el marco: 0
+[INFO] 22:08:23:994 MEMORIA/(28832:28833): CPU solicita escritura a memoria de usuario
+[INFO] 22:08:23:994 MEMORIA/(28832:28833): Cpu solicita escribir el valor 120 en el marco 0 con desplazamiento: 8
+[INFO] 22:08:23:994 MEMORIA/(28832:28833): Se escribio el contenido: 120 en el marco: 0
+[INFO] 22:08:26:996 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:08:26:996 MEMORIA/(28832:28833): entrada tabla: 2 ; numero tabla: 0
+[INFO] 22:08:26:996 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:08:26:996 MEMORIA/(28832:28833): No hizo falta reemplazar, se asignó el marco 4 a la página 8
+[INFO] 22:08:26:997 MEMORIA/(28832:28833): CPU solicita escritura a memoria de usuario
+[INFO] 22:08:26:997 MEMORIA/(28832:28833): Cpu solicita escribir el valor 108 en el marco 4 con desplazamiento: 4
+[INFO] 22:08:26:997 MEMORIA/(28832:28833): Se escribio el contenido: 108 en el marco: 4
+[INFO] 22:08:29:998 MEMORIA/(28832:28833): CPU solicita lectura a memoria de usuario
+[INFO] 22:08:29:998 MEMORIA/(28832:28833): Se leyó el contenido: 100 del marco: 0 con desplazamiento: 0
+[INFO] 22:08:32:999 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:08:32:999 MEMORIA/(28832:28833): entrada tabla: 1 ; numero tabla: 1
+[INFO] 22:08:32:999 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:08:32:999 MEMORIA/(28832:28833): No hizo falta reemplazar, se asignó el marco 5 a la página 4
+[INFO] 22:08:32:999 MEMORIA/(28832:28833): CPU solicita escritura a memoria de usuario
+[INFO] 22:08:32:999 MEMORIA/(28832:28833): Cpu solicita escribir el valor 999 en el marco 5 con desplazamiento: 8
+[INFO] 22:08:32:999 MEMORIA/(28832:28833): Se escribio el contenido: 999 en el marco: 5
+[INFO] 22:08:35:999 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:08:35:999 MEMORIA/(28832:28833): entrada tabla: 0 ; numero tabla: 1
+[INFO] 22:08:35:999 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de segundo nivel
+[WARNING] 22:08:35:999 MEMORIA/(28832:28833): No hizo falta reemplazar, se asignó el marco 6 a la página 2
+[INFO] 22:08:35:999 MEMORIA/(28832:28833): CPU solicita escritura a memoria de usuario
+[INFO] 22:08:35:999 MEMORIA/(28832:28833): Cpu solicita escribir el valor 999 en el marco 6 con desplazamiento: 4
+[INFO] 22:08:35:999 MEMORIA/(28832:28833): Se escribio el contenido: 999 en el marco: 6
+[INFO] 22:08:39:000 MEMORIA/(28832:28854): Kernel solicita FINALIZACION PROCESO
+[INFO] 22:08:39:000 MEMORIA/(28832:28854): Id a finalizar: 1
+[INFO] 22:08:39:001 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:08:39:001 MEMORIA/(28832:28833): entrada tabla: 0 ; numero tabla: 0
+[INFO] 22:08:39:001 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 22:08:39:001 MEMORIA/(28832:28833): CPU solicita lectura a memoria de usuario
+[INFO] 22:08:39:001 MEMORIA/(28832:28833): Se leyó el contenido: 102 del marco: 2 con desplazamiento: 4
+[INFO] 22:08:42:002 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de primer nivel
+[INFO] 22:08:42:002 MEMORIA/(28832:28833): entrada tabla: 1 ; numero tabla: 0
+[INFO] 22:08:42:002 MEMORIA/(28832:28833): CPU solicita acceso a tabla pagina de segundo nivel
+[INFO] 22:08:42:002 MEMORIA/(28832:28833): CPU solicita lectura a memoria de usuario
+[INFO] 22:08:42:002 MEMORIA/(28832:28833): Se leyó el contenido: 104 del marco: 3 con desplazamiento: 8
+[INFO] 22:08:45:008 MEMORIA/(28832:28854): Kernel solicita FINALIZACION PROCESO
+[INFO] 22:08:45:008 MEMORIA/(28832:28854): Id a finalizar: 0
+[ERROR] 22:09:50:147 MEMORIA/(28832:28833): Se desconecto la cpu
